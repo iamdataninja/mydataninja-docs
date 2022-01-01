@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <Layout
       title={`Documentation - ${siteConfig.title}`}
-      description='Description will go into a meta tag in <head />'
+      description='Complete Documentation of Mydataninja'
     >
       <HomepageHeader />
       <main>
