@@ -2,9 +2,9 @@
 menu-position: 0
 ---
 
-# Create Postabacks
+# Create Postbacks
 
-## How to Create Postabacks
+## How to Create Postbacks
 
 To Create Postbacks you have to navigate: `Postbacks` module and press `Create Postaback` Button, where you will be presented postback creation form.
 
