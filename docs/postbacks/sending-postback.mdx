@@ -1,0 +1,56 @@
+---
+menu-position: 1
+---
+
+# Sending postbacks
+
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
+## Preparing postback url
+
+Lets assume that you have to send postback which has url like this:
+
+```json title="Example Postback Url"
+"https://pb.mydataninja.com/abcdefghijklmnopqrstuvwxyz?transaction_id={transaction_id}&click_id={click_id}&currency={currency}&user_id={user_id}&data1={data1}&event_id={event_id}&value={value}&data1={data1}&data2={data2}&data3={data3}"
+```
+
+As you can see, there are multiple parameters in curly braces, these are called the data placeholders, which you have to replace with real data.
+
+None of this parameters are required to receive postback, although some are essential for the tracking to work correctly. They are:
+
+- user_id - **Unique visitor id `njuser`**
+- event_id - **Event id generated from snippet**
+- transaction_id - **unique id for that postback**
+
+These parameters are required to track and attach sales to an Ad
+
+## Sending Postabck
+
+After you have postback url prepared it is very simple process to send it.
+
+You have to just send either send request with `GET` or `POST` method.
+
+<Tabs groupId="postback-response">
+  <TabItem value="success" label="Success Response" default>
+
+      {
+        "success": true,
+        "postback_id": 12345,
+      }
+
+  </TabItem>
+  <TabItem value="error" label="Error Response">
+
+      {
+        "success": false,
+        "errors": [
+          "some error 1",
+          "some error 2",
+        ]
+      }
+
+  </TabItem>
+</Tabs>

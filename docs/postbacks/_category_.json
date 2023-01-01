@@ -1,0 +1,8 @@
+{
+  "label": "Postabcks",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Postaback is one of the ways to send data to MyDataNinja"
+  }
+}
