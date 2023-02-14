@@ -13,7 +13,7 @@ const FeatureList = [
       </>
     ),
   },
-  {
+  { 
     title: 'Focus on What Matters',
     Svg: require('@site/static/img/reporting-temp.svg').default,
     description: (
