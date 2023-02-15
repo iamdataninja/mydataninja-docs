@@ -77,7 +77,7 @@
 .hero__subtitle{
   color: #151A22 !important;
 }
-
+ 
 .navbar__brand:hover, .navbar__link:hover,.table-of-contents__link:hover code,  .menu__link--active:hover, .table-of-contents__link:hover{
   color:#FF4E00;
 }
