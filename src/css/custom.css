@@ -59,7 +59,7 @@
 
 [data-theme='light']
 .hero--primary{
-  --ifm-hero-background-color: #151A22;
+  --ifm-hero-background-color: #f5f5f5;
   --ifm-hero-text-color: #FF4E00;
 }
 
@@ -70,7 +70,7 @@
 
 [data-theme='light']
 .hero__subtitle{
-  color: white !important;
+  color: #151A22 !important;
 }
  
 [data-theme='dark']
