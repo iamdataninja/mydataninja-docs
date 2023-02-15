@@ -72,7 +72,7 @@
 .hero__subtitle{
   color: white !important;
 }
-
+ 
 [data-theme='dark']
 .hero__subtitle{
   color: #151A22 !important;
