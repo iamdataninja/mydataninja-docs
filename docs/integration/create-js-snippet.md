@@ -15,7 +15,7 @@ In order to create js snippet, first you have to navigate to **Websites** Module
 After you fill up form, then there will be presented js snipped which you have to insert in that webpage which you have just connected.
 
 ```js title="The JS snippet code usually looks like this:"
-<script type="text/javascript" src="https://static.mydataninja.com/ninja.js" async defer></script>
+<script type="text/javascript" data-website="<WEBSITE_ID>" src="https://static.mydataninja.com/ninja.js" async defer></script>
 <script type="text/javascript">
   var nj = window.nj || [];
   nj.push(['init', {}]);
@@ -23,7 +23,7 @@ After you fill up form, then there will be presented js snipped which you have t
 ```
 
 :::caution
-Do **not** copy from here, your snippet may be different
+Do **not** copy js snippet from here, every website has its unique key
 :::
 
 ---
