@@ -78,7 +78,7 @@ fetch('https://collect.mydataninja.com/crm/lead', {
 ```
 
 :::warning
-For tracking purposes, it's necessary to give us `NJ_ID`, `NJ_USER` OR `NJ_EVENT_ID` parameters in REST API call. If you want to know how to get these paramters please visit [this page](../integration/track-ad-users)
+For tracking purposes, it's necessary to give us `NJ_ID`, `NJ_USER` OR `NJ_EVENT_ID` parameters in REST API call. If you want to know how to get these paramters please visit [this page](../integration/start-tracking)
 :::
 
 :::info
