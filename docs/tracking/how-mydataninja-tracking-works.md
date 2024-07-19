@@ -39,7 +39,7 @@ MyDataNinja UTM parameters are automatically placed on each running campaigns an
 
 Also, there are some cases where it's impossible to track correctly despite correctly placed utm parameters, but we've detailed docs and solutions written down in the links below by advertiser networks:
 
-- [Google Ads](./meta-ads)
+- [Google Ads](./google-ads)
 - [Meta Ads](./meta-ads)
 - [Tiktok Ads](./meta-ads)
 - [Bing Ads](./meta-ads)

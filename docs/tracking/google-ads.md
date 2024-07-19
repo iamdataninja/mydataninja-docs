@@ -1,6 +1,6 @@
 ---
 menu-position: 3
-title: 'Google ads tracking'
+title: 'Google Ads Tracking'
 ---
 
 ### How to enable tracking on Google Ads ?
@@ -34,3 +34,21 @@ MyDataNinja has completely automated Google Ads tracking and requires only a few
 </details>
 
 ##### 5. Setting up may take a few minutes and you will get notified when it's done.
+
+### How Google Ads Tracking work behind the scenes?
+
+During Tracking setup process, MyDataNinja adds `utm_mydataninja` and `utm_cmydataninja` parameters on 3 different levels to ensure that tracking works properly.
+
+- Account level
+- Campaign level
+- Ad level
+
+`utm_mydataninja` and `utm_cmydataninja` are added to Final url suffix on each level and is expected to be replaced via Creative ID and Campaign ID respectively.
+
+When setup is properly done you should see `utm_mydataninja={creative}&utm_cmydataninja={campaignid}` parameters on the assets mentioned above.
+
+#### What is utm_cmydataninja parameter?
+
+As already mentioned `utm_cmydataninja` represents Campaign ID of the ad which user has clicked. Campaign ID is used to track the ads that doesn't have creative which are Usually Performance Max and Shopping Ads Campaigns.
+
+It's also worth mentioning that in MyDataNinja Report you will see reports on Campaign level in these type of campaigns, since the doesn't have Creative or Ad leve like others.
