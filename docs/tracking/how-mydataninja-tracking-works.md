@@ -42,4 +42,4 @@ Also, there are some cases where it's impossible to track correctly despite corr
 - [Google Ads](./google-ads)
 - [Meta Ads](./meta-ads)
 - [Tiktok Ads](./meta-ads)
-- [Bing Ads](./meta-ads)
+- [Bing Ads](./bing-ads)
