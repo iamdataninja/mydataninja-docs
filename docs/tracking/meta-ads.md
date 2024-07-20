@@ -4,7 +4,7 @@ link: '/meta-ads'
 title: 'Meta Ads Tracking'
 ---
 
-Because of api limitations **Meta Ads** required by far the most manual work to set up tracking via [**UTM parameters**](./how-mydataninja-tracking-works)
+Because of api limitations **Meta Ads** requires by far the most manual work to set up tracking via [**UTM parameters**](./how-mydataninja-tracking-works)
 
 We're working to reduce the manual work as much as we can, but now, you have to add `UTM` parameters manually to every running ads you have.
 

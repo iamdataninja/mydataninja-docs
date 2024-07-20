@@ -35,6 +35,11 @@ MyDataNinja has completely automated Google Ads tracking and requires only a few
 
 ##### 5. Setting up may take a few minutes and you will get notified when it's done.
 
+### Which ads will be tracked automatically?
+
+When you request automatic setup, MyDataNinja will track every Campaigns and Ads which is active at that exact time.
+For future ads MyDataNinja will remember your choice that you want auto tracking and will track newly created ads till you disconnect account from MyDataNinja
+
 ### How Google Ads Tracking work behind the scenes?
 
 During Tracking setup process, MyDataNinja adds `utm_mydataninja` and `utm_cmydataninja` parameters on 3 different levels to ensure that tracking works properly.
@@ -43,9 +48,23 @@ During Tracking setup process, MyDataNinja adds `utm_mydataninja` and `utm_cmyda
 - Campaign level
 - Ad level
 
-`utm_mydataninja` and `utm_cmydataninja` are added to Final url suffix on each level and is expected to be replaced via Creative ID and Campaign ID respectively.
+`utm_mydataninja` and `utm_cmydataninja` are added to Final url suffix on each level and is expected to be replaced via Creative ID and Campaign ID respectively. See more about google dynamic parameters [here](https://support.google.com/google-ads/answer/6305348)
 
-When setup is properly done you should see `utm_mydataninja={creative}&utm_cmydataninja={campaignid}` parameters on the assets mentioned above.
+When setup is properly done you should see `utm_mydataninja={creative}&utm_cmydataninja={campaignid}` parameters on the assets mentioned above. See example screenshot below:
+
+<details>
+<summary>Screenshot</summary>
+<p>
+
+![Google Ads Manual Setup](./screens/google-manual-setup.png)
+
+</p>
+</details>
+
+#### How to set up tracking manually for only some ads?
+
+Since you already know how tracking works behind the scenes you can do it manually if you prefer.
+You have just these parameters `utm_mydataninja={creative}&utm_cmydataninja={campaignid}` to put in Final Url Suffix on the levels you want to track.
 
 #### What is utm_cmydataninja parameter?
 
