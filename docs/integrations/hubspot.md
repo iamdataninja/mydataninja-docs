@@ -1,7 +1,7 @@
 ---
 menu-position: 2
 link: '/hubspot'
-title: 'Hubspot CRM Integrtion'
+title: 'Hubspot CRM Integration'
 ---
 
 HubSpot is more than just a CRM, it’s where many E-commerce businesses manage everything from email campaigns to customer journeys. But when it comes to advertising, even the most organized teams can lose track of performance across channels.
@@ -17,6 +17,7 @@ Setup takes just minutes. Here’s how to get started.
 1. Log in to MyDataNinja, and on the left menu, choose Revenue Sources.
 
 2. Click Hubspot and then the “Click here to connect your HubSpot account” button.
+   ![Connect Hubspot](./screens/hubspot_connect.jpg)
 
 3. After logging into your HubSpot account, choose your desired account, and that’s it!
    Yes, it’s that easy.

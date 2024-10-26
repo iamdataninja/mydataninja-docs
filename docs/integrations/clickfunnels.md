@@ -12,6 +12,7 @@ This integration helps you simplify your operations and gain better control over
 1. Open MyDataNinja and log in.
 
 2. Click revenue sources in the left menu and choose ClickFunnels - > Connect New Store.
+   ![Connect Clickfunnels](./screens/clickfunnels_connect.jpg)
 
 3. On the new window, you should log in to your ClickFunnels account. (If you are already logged in, you can choose your workspace right away.)
 
@@ -23,17 +24,21 @@ This integration helps you simplify your operations and gain better control over
 
 After connecting your ClickFunnel store to MyDataNinja,
 
-Log in to your ClickFunnels account and choose your desired workspace.
+1. Log in to your ClickFunnels account and choose your desired workspace.
 
-Then, from the left menu, click Store and then Overview.
+2. Then, from the left menu, click Store and then Overview.
+   ![Clickfunnels store](./screens/clickfunnels_store.jpg)
 
-On a new page, click the Customize Store icon.
+3. On a new page, click the Customize Store icon.
 
-Scroll down and on the right side, click the Code icon.
+4. Scroll down and on the right side, click the Code icon.
+   ![Clickfunnels script edit](./screens/clickfunnels_script_edit.jpg)
 
-Choose Footer Code and add your tracking code there.
+5. Choose Footer Code and add your tracking code there.
+   ![Clickfunnels script edit](./screens/clickfunnels_script_edit_footer.jpg)
 
-The tracking code is located on the MyDataNinja tracking page.
+6. The tracking code is located on the MyDataNinja tracking page.
+   ![Clickfunnels script edit](./screens/clickfunnels_script.jpg)
 
 ### Finishing Up
 
