@@ -5,6 +5,25 @@
  */
 
 /* You can override the default Infima variables here. */
+@font-face {
+  font-family: sfProRegular;
+  src: url(./font/sf-pro-display-regular.woff);
+}
+@font-face {
+  font-family: montHeavy;
+  src: url(./font/mont-heavy.otf);
+}
+b{
+  font-family: montHeavy;
+}
+
+div {
+  font-family: sfProRegular ;
+}
+
+body{
+  /* font-family: "Lucida Console", "Courier New", monospace; */
+}
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
